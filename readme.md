@@ -39,6 +39,7 @@ python -m spacy download ru_core_news_sm
 
 3. Скачать модель файлы и ноутбуки
   - [Скачать модель с облака](https://drive.google.com/file/d/1L6C6xWkQAqBsZMgXMQz4V9Gu6AL4fj5R/view?usp=sharing)
+  - [Скачать датасет](https://drive.google.com/file/d/16ov3v-zpms35439N4EGsxR1X5BbjXIIk/view?usp=sharing)
   - Скачать model.py, web_interface.py, solutuion.ipynb, example_of_use.ipynb из репозитория
   - Все файлы должны находиться в одной директории
 
