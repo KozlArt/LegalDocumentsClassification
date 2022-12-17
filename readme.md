@@ -26,10 +26,15 @@ sudo apt install oracle-java17-installer
 
 3. Скачать модель файлы и ноутбуки
   - [Скачать модель с облака](https://drive.google.com/file/d/1L6C6xWkQAqBsZMgXMQz4V9Gu6AL4fj5R/view?usp=sharing)
-  - 
+  - Скачать model.py, web_interface.py, solutuion.ipynb, example_of_use.ipynb из репозитория
   - Все файлы должны находиться в одной директории
 
 #### Пример питоновского интерфейса модели
+Пример использования модуля доступен в example_of_use.ipynb
+```
+cl.get_dict(path) - > dict, модель принимает путь документа
+cl.pdf_viz(path)
+```
 
 #### Обучение и метрики модели
 Весь процесс обучения описан в 
