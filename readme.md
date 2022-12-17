@@ -12,14 +12,14 @@ bash Anaconda3-2022.10-Linux-x86_64.sh
 
 1. Создать окружение conda из файла xmas.yml
 ```
-conda env create -f xmas.yml -n xmas python=3.8
+conda create -f xmas.yml -n xmas python=3.8
 conda activate xmas
 ```
 
 или если не устанавливаются библиотеки
 
 ```
-conda env create -n xmas python=3.8
+conda create -n xmas python=3.8
 conda activate xmas
 conda install pip
 python -m pip install -r requirements.txt
