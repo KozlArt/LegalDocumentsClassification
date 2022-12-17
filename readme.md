@@ -12,7 +12,7 @@ bash Anaconda3-2022.10-Linux-x86_64.sh
 
 1. Создать окружение conda из файла xmas.yml
 ```
-conda env create -f xmas.yml -n xmas
+conda env create -f xmas.yml -n xmas python=3.8
 conda activate xmas
 ```
 
@@ -32,12 +32,12 @@ sudo apt install oracle-java17-installer
 #### Пример питоновского интерфейса модели
 Пример использования модуля доступен в example_of_use.ipynb
 ```
-cl.get_dict(path) - > dict, модель принимает путь документа
-cl.pdf_viz(path)
+cl.get_dict(path) - > dict, модель принимает путь документа и выдает dict - результат классификации
+cl.pdf_viz(path) - > None, модель принимает путь документа и создает в своей папке разметку ./output.pdf
 ```
 
 #### Обучение и метрики модели
-Весь процесс обучения описан в 
+Весь процесс обучения описан в solutuion.ipynb
 
 #### Запуск веб приложения
 ```
