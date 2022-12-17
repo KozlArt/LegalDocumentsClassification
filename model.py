@@ -45,10 +45,6 @@ def highlight_matching_data(page, matched_values):
 
         highlight = page.addHighlightAnnot(matching_val_area)
         
-        # To change the highlight colar
-        # highlight.setColors({"stroke":(0,0,1),"fill":(0.75,0.8,0.95) })
-        # highlight.setColors(stroke = fitz.utils.getColor('white'), fill = fitz.utils.getColor('red'))
-        # highlight.setColors(colors= fitz.utils.getColor('red'))
         highlight.update()
     return matches_found
 
