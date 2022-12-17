@@ -21,7 +21,7 @@ conda activate xmas
 ```
 conda env create -n xmas python=3.8
 conda activate xmas
-conda activate pip
+conda install pip
 python -m pip install -r requirements.txt
 ```
 
