@@ -16,6 +16,15 @@ conda env create -f xmas.yml -n xmas python=3.8
 conda activate xmas
 ```
 
+или если не устанавливаются библиотеки
+
+```
+conda env create -n xmas python=3.8
+conda activate xmas
+conda activate pip
+python -m pip install -r requirements.txt
+```
+
 2. Установить Java (для tika)
 
 ```
