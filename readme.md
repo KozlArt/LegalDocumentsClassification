@@ -25,12 +25,16 @@ conda install pip
 python -m pip install -r requirements.txt
 ```
 
-2. Установить Java (для tika)
+2. Установить Java (для tika) + spacy nlp
 
 ```
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
 sudo apt install oracle-java17-installer
+```
+
+```
+python -m spacy download ru_core_news_sm
 ```
 
 3. Скачать модель файлы и ноутбуки
