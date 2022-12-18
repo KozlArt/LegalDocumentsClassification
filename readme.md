@@ -1,4 +1,25 @@
 # Решение хакатона по классификации докуменетов
+Команда: [KozlArt](https://github.com/KozlArt), [OZheRelieV](https://github.com/OZheRelieV)
+### Описание решения
+Был создан классификатор юридических документов с помощью эмбеддингов предобученных языковых моделей с интерпретацией результатов в виде ключевых пунктов документа и цветовой разметкой документа. Для демонастрации решения был создан веб интерфейс streamlit.
+
+| Metric        | Value| Place |
+|:-------------:|:-----:|:-----:|
+| ACC      |  0.975   | 3   |
+| f1 macro      |  0.964   | 3   |
+
+### Веб интерфейс и разметка
+
+<p align="center">
+<img height=300 src="https://github.com/KozlArt/LegalDocumentsClassification/blob/main/img/img1.png?raw=true"/>
+
+</p>
+
+<p align="center">
+<img height=600 src="https://github.com/KozlArt/LegalDocumentsClassification/blob/main/img/img3.png?raw=true"/>
+<img height=600 src="https://github.com/KozlArt/LegalDocumentsClassification/blob/main/img/img2.png?raw=true"/>
+</p>
+
 
 ### Запуск решения
 Решение тестировалось на ubuntu 18.04 с 128 гб RAM и 24 гб VRAM GPU
