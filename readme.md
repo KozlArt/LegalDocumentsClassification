@@ -14,10 +14,6 @@
 
 ### Веб интерфейс и разметка
 
-<p align="center">
-<img height=300 src="https://github.com/KozlArt/LegalDocumentsClassification/blob/main/img/img1.png?raw=true"/>
-
-</p>
 
 <p align="center">
 <img height=600 src="https://github.com/KozlArt/LegalDocumentsClassification/blob/main/img/img3.png?raw=true"/>
